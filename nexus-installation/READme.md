@@ -60,7 +60,7 @@ sudo ln -s /opt/nexus/bin/nexus /etc/init.d/nexus
 
 #9 Enable and start the nexus services
 sudo systemctl enable nexus
-sudo systemctl start nexus
+sudo systemctl start nexus or /opt/nexus/bin/nexus start
 sudo systemctl status nexus
 echo "end of nexus installation"
 ```
